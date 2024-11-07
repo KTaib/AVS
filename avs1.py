@@ -163,5 +163,5 @@ except Exception as e:
  st.error (f" An error occurred. Please try again later: {e}")
 
 # Your main app goes here
-st.markdown("<br/>" * 0, unsafe_allow_html=True)  # Creates 0 lines of vertical space
+st.markdown("<br/>" * 1, unsafe_allow_html=True)  # Creates 0 lines of vertical space
 st.markdown('<p style="font-size: 21px;font-style: normal;">The Sales Enablement Team</p>', unsafe_allow_html=True)
